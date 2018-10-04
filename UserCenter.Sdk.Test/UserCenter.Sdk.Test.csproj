@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9AD50035-11A5-428F-B418-E84DAEA10EE5}</ProjectGuid>
+    <ProjectGuid>{142BDA03-268A-426D-A1A2-78937E773BF9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>UserCenter.Sdk</RootNamespace>
-    <AssemblyName>UserCenter.Sdk</AssemblyName>
+    <RootNamespace>UserCenter.Sdk.Test</RootNamespace>
+    <AssemblyName>UserCenter.Sdk.Test</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,12 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="RuPeng.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\RuPeng.Common.1.0.0\lib\net35\RuPeng.Common.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -51,14 +45,15 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SDKClient.cs" />
-    <Compile Include="SDKResult.cs" />
-    <Compile Include="User.cs" />
-    <Compile Include="UserApi.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UserCenter.Sdk\UserCenter.Sdk.csproj">
+      <Project>{9ad50035-11a5-428f-b418-e84daea10ee5}</Project>
+      <Name>UserCenter.Sdk</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

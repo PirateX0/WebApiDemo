@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateSqlDbFromEf", "Gene
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserCenter.Sdk", "UserCenter.Sdk\UserCenter.Sdk.csproj", "{9AD50035-11A5-428F-B418-E84DAEA10EE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserCenter.Sdk.Test", "UserCenter.Sdk.Test\UserCenter.Sdk.Test.csproj", "{142BDA03-268A-426D-A1A2-78937E773BF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{9AD50035-11A5-428F-B418-E84DAEA10EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AD50035-11A5-428F-B418-E84DAEA10EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AD50035-11A5-428F-B418-E84DAEA10EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142BDA03-268A-426D-A1A2-78937E773BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142BDA03-268A-426D-A1A2-78937E773BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142BDA03-268A-426D-A1A2-78937E773BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142BDA03-268A-426D-A1A2-78937E773BF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{4CAED30E-7445-4209-BC74-7006C9F48387} = {6E9FE22E-750A-4053-B054-0D581730EF89}
 		{366B6631-424E-4122-9CD9-2D45344F0741} = {7399B3F8-CE5D-46A2-B64E-ECFFDCCAEF91}
 		{9AD50035-11A5-428F-B418-E84DAEA10EE5} = {6E9FE22E-750A-4053-B054-0D581730EF89}
+		{142BDA03-268A-426D-A1A2-78937E773BF9} = {6E9FE22E-750A-4053-B054-0D581730EF89}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA25673D-C50C-41C4-BD80-F7992E1F2E15}
